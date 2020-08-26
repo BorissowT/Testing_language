@@ -8,7 +8,7 @@ from selenium.common.exceptions import NoSuchElementException
 class BasePage:
     def __init__(self, browser, url):
         self.browser = browser
-        self.browser.implicitly_wait(5)
+        self.browser.implicitly_wait(10)
         self.url = url
 
     def open(self):
