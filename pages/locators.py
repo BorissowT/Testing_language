@@ -16,3 +16,4 @@ class ProductPageLocators:
     PRODUCT_NAME_FROM_ALERT = (By.CSS_SELECTOR, ".alert:first-child > .alertinner > strong")
     REAL_PRICE = (By.CSS_SELECTOR, ".product_main > .price_color")
     BASKET_PRICE = (By.CSS_SELECTOR, ".alert > .alertinner >p > strong")
+    SUCCESS_MESSAGE = (By.CSS_SELECTOR, ".alert > .alertinner")
